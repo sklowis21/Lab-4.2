@@ -111,6 +111,9 @@ collishex.features.forEach((feature) => {
     }
 });
 
+
+
+
 map.addSource('collis-hex', {
     type: 'geojson',
     data: hexgeojson
@@ -154,3 +157,8 @@ map.on('click', 'collis-hex-fill', (e) => {
 //      Add a legend and additional functionality including pop-up windows
 
 
+// Add zoom and rotation controls
+
+
+//Declare legend variable using legend div tag
+const legend = document.getElementById('legend');
